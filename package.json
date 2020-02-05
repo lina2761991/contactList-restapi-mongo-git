@@ -1,0 +1,25 @@
+{
+  "name": "mongo-crud-contactlist-restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lina2761991/mongo-crud-contactList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lina2761991/mongo-crud-contactList/issues"
+  },
+  "homepage": "https://github.com/lina2761991/mongo-crud-contactList#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2"
+  }
+}
