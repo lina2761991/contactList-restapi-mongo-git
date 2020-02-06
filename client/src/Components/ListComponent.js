@@ -26,6 +26,10 @@ export default class ContactListComponent extends Component {
   componentDidMount() {
     this.getAll();
   }
+
+  componentDidUpdate() {
+    this.getAll();
+  }
   deleteItemHandler = id => {
     const updatedar = this.state.arr.filter(el => el.id !== id);
     this.setState({ arr: updatedar });
